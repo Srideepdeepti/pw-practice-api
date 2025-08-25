@@ -45,7 +45,7 @@ test('validate logo text with Mock API', async ({ page }) => {
    
 });
 
-test('Validate Detete Article', async({page, request})=>{
+test('Validate Detete Article - Test', async({page, request})=>{
 
   
 const createArticle_response = await request.post('https://conduit-api.bondaracademy.com/api/articles/',{
